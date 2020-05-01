@@ -26,7 +26,7 @@ It is licensed unter CC-BY. Feel fee to use, share and modify the design to your
 * Some wires for hooking it all up
 
 ### Printed Parts
-Just print all .stl files in the CAD/STL folder. I used PET-G with 4 Perimeters, .5mm layer height and 15% infill for all parts.
+Just print all .stl files in the CAD/STL folder. I used PET-G with 4 Perimeters, 0.5mm layer height and 15% infill with a 0.8mm nozzle for all parts. If you are using a 0.4mm nozzle, the layer height should not exceed 0.3mm
 
 ## Assembly
 The machine consists of three subassemblies. The extruder for advancing the band forward, the cutter for actually cutting the tape and a spool holder for the spools.
