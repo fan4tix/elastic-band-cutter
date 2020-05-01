@@ -1,6 +1,6 @@
 # Automated Elastic Band Cutter
 
-
+![Elastic Band Cutter](./Images/front.jpg)
 
 This machine was created during the 2020 Covid-19 pandemic to cut elastic bands for 3D-printed faceshields. I used stuff I had lying around to build the machine as fast as possible so it might not be the fastest, best and prettiest design, but I thought I'd share the design anyways as Inspiration for other people in need of a similar machine.
 
@@ -30,25 +30,30 @@ Just print all .stl files in the CAD/STL folder. I used PET-G with 4 Perimeters,
 
 ## Assembly
 The machine consists of three subassemblies. The extruder for advancing the band forward, the cutter for actually cutting the tape and a spool holder for the spools.
+Should you need more details on some parts I have missed, try looking at the pictures and renders in `./Images`
 ### The Extruder
 ![Idler Roller](./Images/IdlerRoller.png)
 
 Start by pressing the Bearings into the idler roller (red). After that, install the roller into the idler lever (green) using a M3x30 screw.
 
-![The complete extruder](./Images/ExtruderComplete.png)
+![The complete extruder (render)](./Images/ExtruderComplete.png)
+![The complete extruder](./Images/Extruder.jpg)
 
 Install the NemaPlate (yellow) on the stepper with M3x6 screws. Use one M3x8 Screw to fix the idler lever to the stepper. Don't tighten the screw too much or the lever won't be able to move. Use some Loctite if the screw comes loose after some time.
 After that, you can install the cover plate and the spring as shown in the picture.
 You can adjust the spring tension by using different holes at the end of the lever.
 I just taped the extruder motor to the surface of the paper cutter.
 Make sure you place it near the axis of rotation
+
+![Extruder mounting position](./Images/ExtruderMounting.jpg)
+
 ### The Cutter
 
-![Lower Cutter Bracket](./Images/Cutter2.png)
+![Lower Cutter Bracket](./Images/Cutter2a.jpg)
 
 Assemble the lower bracket as shown in the picture. The lower screw is used to fix the bracket to the picture cutter. The upper screw mounts the linear actuator to the bracket.
 
-![Upper cutter Bracket](./Images/Cutter1.png)
+![Upper cutter Bracket](./Images/Cutter1a.jpg)
 
 The upper bracket consists of two printed parts that need to be joined together using M3x8 screws. Fix to the linear actuator using a M6x60 screw an nylon locknuts.
 ### The Spool Holder
@@ -60,7 +65,8 @@ Use a M6x40 Screw to clamp the spool holder to the picture cutter. The spool is 
 
 ### Electronics
 
-TODO: Schematic
+![Electronics assembly](./Images/Electronics.jpg)
+
 
 Install the Arduino and the stepper driver on the shield. Use the Z-Axis stepper socket. Connect MOT_GND and MOT_VCC of the shield to the L298's power supply and connect pins 12 and 13 on the shield to the IN1 and IN2 pin of the L298. Afterwards, use the screw terminals on out1 and out2 to connect the linear actuator.
 
