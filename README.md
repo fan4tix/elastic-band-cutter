@@ -6,6 +6,10 @@ This machine was created during the 2020 Covid-19 pandemic to cut elastic bands 
 
 It is licensed unter CC-BY. Feel fee to use, share and modify the design to your needs.
 
+Watch it working in the following Video:
+
+[![Automated Elastic Band Cutter Video](http://img.youtube.com/vi/ZVcDNM6GSuA/0.jpg)](http://www.youtube.com/watch?v=ZVcDNM6GSuA "")
+
 ## Bill of Materials
 
 ### Hardware
